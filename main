@@ -1,0 +1,28 @@
+local I = script.Parent.Eraser1
+local J = script.Parent.Eraser2
+local M = script.Parent.Eraser3
+local T = script.Parent.Eraser4
+local F = script.Parent.Eraser5
+local E = {Ivan, Jensen, Marcus, Tony, Funkey}
+
+Erasers.Health.Value = 100
+
+if I.Health.Value == 0 then
+	I.Position = "105.453, -41.585, -37.18" 
+	end
+if J.Health.Value == 0 then
+		J.Position = "119.905, -42.226, -96.325"
+		end
+		if M.Health.Value == 0 then
+		   M.Position = "119.905, -42.226, -96.325"
+		end
+	        if T.Health.Value == 0 then
+	T.Position = "119.905, -42.226, -96.325"
+	end
+	if F.Health.Value == 0 then
+	F.Position = "119.905, -42.226, -96.325"
+
+ 
+end
+
+
